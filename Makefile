@@ -28,7 +28,7 @@ SDK_BASE	?= $(BUILD_AREA)/esp-open-sdk/sdk
 
 # # esptool.py path and port
 ESPTOOL		?= $(XTENSA_TOOLS_ROOT)/esptool.py
-ESPPORT		?= /dev/ttyUSB0
+ESPPORT		?= /dev/ttyUSB1
 ESPTOOLBAUD	?= 115200
 ESPTOOLOPTS	= -ff 40m -fm dio -fs 32m
 
